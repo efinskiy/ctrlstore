@@ -3,14 +3,7 @@
 }
 
 body{
-  background: var(--bg-color);
-}
-
-.header{
-    position: absolute;
-    width: 100%;
-    height: 81px;
+    background: var(--bg-color);
     left: 0;
     top: 0;
-    background: rgba(255, 255, 255, 0.05);
 }
