@@ -1,5 +1,6 @@
 :root{
     --bg-color: #252426;
+    --dark: #1F1F1F;
 }
 
 body{
@@ -7,3 +8,5 @@ body{
     left: 0;
     top: 0;
 }
+
+
