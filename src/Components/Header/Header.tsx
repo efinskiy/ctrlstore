@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from "./Brand/Logo/Logo";
 import LogoName from "./Brand/LogoName/LogoName";
 import SearchButton from "./SearchButton";
-import './header.css';
+import './header.module.css';
 const Header = () => {
     return (
         <header className="header">
@@ -11,10 +11,10 @@ const Header = () => {
                 <LogoName className="logo__name"/>
             </div>
             <div className="nav">
-                <a className="nav__button" href="#">Store</a>
-                <a className="nav__button" href="#">Help</a>
-                <a className="nav__button" href="#">Favorites</a>
-                <a className="nav__button" href="#">Categories</a>
+                <a className="nav__button" href="src/Components/Header#">Store</a>
+                <a className="nav__button" href="src/Components/Header#">Help</a>
+                <a className="nav__button" href="src/Components/Header#">Favorites</a>
+                <a className="nav__button" href="src/Components/Header#">Categories</a>
             </div>
             <div className="search">
                 <SearchButton className="search__button"/>
